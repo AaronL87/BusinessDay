@@ -5,7 +5,7 @@ BEGIN
         BusinessDayNum INT NULL
     );
 
-    TRUNCATE TABLE BusinessDay;
+    --TRUNCATE TABLE BusinessDay;
 
     DECLARE @startDay DATE = '2020-1-1'; --the starting date
     DECLARE @endDay DATE = '2021-1-1'; --the end date
